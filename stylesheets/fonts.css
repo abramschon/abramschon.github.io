@@ -1,0 +1,47 @@
+@font-face {
+  font-family: caviar;
+  src: url(x_all_fonts/caviar_dreams/CaviarDreams.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: caviar;
+  src: url(x_all_fonts/caviar_dreams/CaviarDreams_Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: caviar;
+  src: url(x_all_fonts/caviar_dreams/CaviarDreams_Bold.ttf);
+  font-style: bold;
+}
+@font-face {
+  font-family: libertine;
+  src: url(x_all_fonts/linux_libertine/LinLibertine_R.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: libertine;
+  src: url(x_all_fonts/linux_libertine/LinLibertine_RI.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: libertine;
+  src: url(x_all_fonts/linux_libertine/LinLibertine_RB.ttf);
+  font-style: bold;
+}
+@font-face {
+  font-family: monofur;
+  src: url(x_all_fonts/monofur/monof55.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: monofur;
+  src: url(x_all_fonts/monofur/monof55.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: monofur;
+  src: url(x_all_fonts/monofur/monof56.ttf);
+  font-style: italic;
+}
+
+/*# sourceMappingURL=fonts.css.map */
