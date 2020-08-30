@@ -1,62 +1,49 @@
 // define default font variable
-$default:   libertine;
-$mono:      monofur; 
-$special:   caviar;
+$default:   cormorant_garamond;
+$mono:      cutive_mono; 
+$special:   alata;
+$barcode:   libre_barcode_39;
 
-//fancy font - for special occasions
+//Sans Serif font - for special occasions
 @font-face {
-    font-family: caviar;
-    src: url(x_all_fonts/caviar_dreams/CaviarDreams.ttf);
-    font-style: normal;
+    font-family: alata;
+    src: url(../fonts/Alata/Alata-Regular.ttf);
+}
+
+//Serif font - default business (normal, italic with lighter variations)
+@font-face {
+    font-family: cormorant_garamond;
+    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
 }
 
 @font-face {
-    font-family: caviar;
-    src: url(x_all_fonts/caviar_dreams/CaviarDreams_Italic.ttf);
+    font-family: cormorant_garamond;
+    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: cormorant_garamond;
+    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf);
     font-style: italic;
 }
 
 @font-face {
-    font-family: caviar;
-    src: url(x_all_fonts/caviar_dreams/CaviarDreams_Bold.ttf);
-    font-style: bold;
-}
-
-//regular font
-@font-face {
-    font-family: libertine;
-    src: url(x_all_fonts/linux_libertine/LinLibertine_R.ttf);
-    font-style: normal;
-}
-
-@font-face {
-    font-family: libertine;
-    src: url(x_all_fonts/linux_libertine/LinLibertine_RI.ttf);
+    font-family: cormorant_garamond;
+    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-LightItalic.ttf);
     font-style: italic;
+    font-weight: lighter;
 }
 
+//Mono font - for pseudocode
 @font-face {
-    font-family: libertine;
-    src: url(x_all_fonts/linux_libertine/LinLibertine_RB.ttf);
-    font-style: bold;
+    font-family: cutive_mono;
+    src: url(../fonts/Cutive_Mono/CutiveMono-Regular.ttf);
 }
 
+//Bar codes - for fun
 @font-face {
-    font-family: monofur;
-    src: url(x_all_fonts/monofur/monof55.ttf);
-    font-style: normal;
-}
-
-//mono font
-@font-face {
-    font-family: monofur;
-    src: url(x_all_fonts/monofur/monof55.ttf);
-    font-style: normal;
-}
-
-@font-face {
-    font-family: monofur;
-    src: url(x_all_fonts/monofur/monof56.ttf);
-    font-style: italic;
+    font-family: libre_barcode_39;
+    src: url(../fonts/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
 }
 

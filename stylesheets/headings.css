@@ -1,10 +1,47 @@
+@font-face {
+  font-family: alata;
+  src: url(../fonts/Alata/Alata-Regular.ttf);
+}
+@font-face {
+  font-family: cormorant_garamond;
+  src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+  font-family: cormorant_garamond;
+  src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: cormorant_garamond;
+  src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: cormorant_garamond;
+  src: url(../fonts/Cormorant_Garamond/CormorantGaramond-LightItalic.ttf);
+  font-style: italic;
+  font-weight: lighter;
+}
+@font-face {
+  font-family: cutive_mono;
+  src: url(../fonts/Cutive_Mono/CutiveMono-Regular.ttf);
+}
+@font-face {
+  font-family: libre_barcode_39;
+  src: url(../fonts/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
+}
 body {
-  font-family: Baskerville, serif;
+  font-family: cormorant_garamond, Baskerville, Garamond, serif;
   font-size: 120%;
 }
 
+.bram {
+  font-family: alata;
+}
+
 h1 {
-  font-size: 3em;
+  border: 1px solid black;
+  font-size: 2em;
   font-weight: normal;
 }
 
@@ -17,7 +54,7 @@ h2 {
 
 p {
   font-size: 1em;
-  color: #616161;
+  color: #6f6f6f;
 }
 
 .highlight {
