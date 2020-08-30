@@ -1,12 +1,35 @@
 @use 'fonts';
 
-body {
+//the main page - pretty much synonymous with the body
+#page { 
     font-family: fonts.$default, Baskerville, Garamond, serif; 
     font-size: 120%;
 }
 
+@media screen and (max-width: 800px) {
+    #page {
+        font-size: 100%; // normal scale font on smaller screens
+    }
+}
+
+//specific font styles
+
 .bram {
     font-family: fonts.$special;
+}
+
+.barcode {
+    font-family: fonts.$barcode;
+    font-size: 1.2em;
+}
+
+.mono {
+    font-family: fonts.$mono;
+}
+
+//highlight text against the default grey 
+.bold{ 
+    color: black
 }
 
 //for h1 really big headings
@@ -30,13 +53,11 @@ p {
     color: rgb(111, 111, 111);
 }
 
-.highlight {
-    color: black
-}
 
-//links are italicised at this stage
+//links are italicised at this stage, and are prefaced with an arrow -> &#8594;
 a {
     text-decoration: none;
     color: black;
     font-style: italic;
 }
+

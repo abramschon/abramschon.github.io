@@ -30,13 +30,31 @@
   font-family: libre_barcode_39;
   src: url(../fonts/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
 }
-body {
+#page {
   font-family: cormorant_garamond, Baskerville, Garamond, serif;
   font-size: 120%;
 }
 
+@media screen and (max-width: 800px) {
+  #page {
+    font-size: 100%;
+  }
+}
 .bram {
   font-family: alata;
+}
+
+.barcode {
+  font-family: libre_barcode_39;
+  font-size: 1.2em;
+}
+
+.mono {
+  font-family: cutive_mono;
+}
+
+.bold {
+  color: black;
 }
 
 h1 {
@@ -55,10 +73,6 @@ h2 {
 p {
   font-size: 1em;
   color: #6f6f6f;
-}
-
-.highlight {
-  color: black;
 }
 
 a {

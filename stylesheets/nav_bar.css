@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  margin-top: 1em;
+  border-bottom: 1px solid black;
 }
 nav ul {
   margin: 0;

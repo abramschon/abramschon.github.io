@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  margin-top: 1em;
+  border-bottom: 1px solid black;
 }
 nav ul {
   margin: 0;
@@ -47,13 +47,31 @@ nav a {
   font-family: libre_barcode_39;
   src: url(../fonts/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
 }
-body {
+#page {
   font-family: cormorant_garamond, Baskerville, Garamond, serif;
   font-size: 120%;
 }
 
+@media screen and (max-width: 800px) {
+  #page {
+    font-size: 100%;
+  }
+}
 .bram {
   font-family: alata;
+}
+
+.barcode {
+  font-family: libre_barcode_39;
+  font-size: 1.2em;
+}
+
+.mono {
+  font-family: cutive_mono;
+}
+
+.bold {
+  color: black;
 }
 
 h1 {
@@ -74,36 +92,47 @@ p {
   color: #6f6f6f;
 }
 
-.highlight {
-  color: black;
-}
-
 a {
   text-decoration: none;
   color: black;
   font-style: italic;
 }
 
-body {
-  background-color: white;
+#page {
+  position: relative;
+  min-height: 100vh;
 }
-body header {
+#page header {
   display: flex;
   justify-content: center;
 }
-body section {
+#page section {
   display: flex;
   justify-content: center;
   padding-left: 10%;
+  padding-bottom: 3em;
 }
-body section article {
+#page section article {
   flex-basis: 60%;
+  padding-right: 0.5em;
 }
-body section aside {
+#page section aside {
   flex-basis: 30%;
 }
-body footer {
-  border: 3px solid black;
+@media screen and (max-width: 800px) {
+  #page section {
+    flex-direction: column-reverse;
+  }
+}
+#page footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3em;
 }
 
 /*# sourceMappingURL=style.css.map */
